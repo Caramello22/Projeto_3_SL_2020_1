@@ -43,16 +43,16 @@ a {
     transition: .2s;
 }
 
-a:hover {
-    color: orangered;
-    text-decoration: underline;
-}
-
 button,
 input,
 textarea {
     font-family: inherit;
     font-size: inherit;
+}
+
+a:hover {
+    color: orangered;
+    text-decoration: underline;
 }
 
 
@@ -111,92 +111,4 @@ header small {
     font-size: .8rem;
     font-weight: normal;
     letter-spacing: normal;
-}
-
-
-/* Menu principal */
-
-nav {
-    background: #000;
-    display: flex;
-    justify-content: flex-end;
-}
-
-nav a {
-    display: block;
-    padding: .5rem .8rem;
-    color: #fff;
-    text-align: center;
-}
-
-nav a:hover {
-    background: #fff;
-    color: #000;
-    text-decoration: none;
-}
-
-nav a:first-child {
-    margin-right: auto;
-}
-
-/* Corpo da página */
-
-main {
-    background: rgba(255,255,255,.8);
-    display: flex;
-}
-
-article {
-    padding: 0 1rem 1rem 1rem;
-}
-
-aside {
-    padding: 0 .5rem .5rem .5rem;
-    border-left: 3px dotted grey;
-    min-width: 200px;
-    max-width: 200px;
-}
-
-/* Rodapé */
-footer {
-    background: #000;
-    color: #fff;
-}
-
-footer a {
-    color: #fff;
-}
-
-.license {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-top: 1px dotted #000;
-    margin-bottom: .5rem;
-    border-bottom: 1px dotted #fff;
-}
-
-.license a {
-    padding: .4rem;
-}
-
-.license a:hover {
-    background: #fff;
-    color: #000;
-    text-decoration: none;
-}
-
-.license div {
-    font-size: .9rem;
-}
-
-.menus {
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 1rem;
-}
-
-.menus div a {
-    display: block;
-    padding: .3rem .4rem;
 }
