@@ -13,7 +13,7 @@ if($_SERVER['SERVER_NAME'] == 'localhost') {
     $server = 'localhost';  // Servidor
     $user = 'root';         // Usuário
     $password = '';         // Senha do usuário
-    $database = 'tilojo';   // Nome da base de dados
+    $database = 'tello';   // Nome da base de dados
 } else {
 
     // Provedor de hospedagem
@@ -39,19 +39,19 @@ $conn->query('SET lc_time_names = pt_BR');
 
 // Variável de configuração do site
 $T = array (
-    'siteName' => 'TILOJO',             // Nome do site
+    'siteName' => 'Tello',             // Nome do site
     'siteSlogan' => 'Intranet',         // Slogam do site
-    'siteLogo' => '/img/logo02.png',    // Logotipo do site
-    'favicon' => '/img/logo02.png',     // Ícone de favoritos
+    'siteLogo' => '/img/logo.JPG',    // Logotipo do site
+    'favicon' => '/img/logo.JPG',     // Ícone de favoritos
     'templateCSS' => '/css/global.css', // CSS do template 
     'pageTitle' => 'Intranet',          // <title> da página
     'pageCSS' => '',                    // CSS da página
     'pageJS' => '',                     // JavaScript da página
     'menuSocial' => array (             // Links para redes sociais
-        'facebook' => 'https://facebook.com/tilojo',
-        'youtube' => 'https://youtube.com/tilojo',
-        'github' => 'https://github.com/tilojo',
-        'linkedin' => 'https://linkedin.com/tilojo'
+        'facebook' => 'https://facebook.com/tello',
+        'youtube' => 'https://youtube.com/telloo',
+        'github' => 'https://github.com/telloo',
+        'linkedin' => 'https://linkedin.com/telloo'
     )
 );
 
